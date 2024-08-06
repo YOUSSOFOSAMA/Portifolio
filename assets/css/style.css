@@ -1246,82 +1246,10 @@ a {
   clear: both;
 }
 
-.container {
-  /*--*
-width: 970px;
-margin: 0 auto;
-max-width: 90%;
-/*--*
--webkit-transform: translateZ(1000px);
-        transform: translateZ(1000px);*/
+.header-tops .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.code {
-  width: 40%;
-  clear: both;
-  height: 200px;
-  background: #FFF;
-  border-radius: 2px;
-  margin: 12vh 0;
-  padding: 10px;
-}
-
-.code pre,
-.code code {
-  height: 100%;
-  margin: 0;
-}
-
-.code code {
-  padding: 20px 0 0 20px;
-}
-
-.code--small code {
-  padding-top: 75px;
-}
-
-.code--left {
-  float: left;
-}
-
-.code--right {
-  float: right;
-}
-
-.code--wider {
-  width: 60%;
-}
-
-.code--wider code {
-  padding-top: 60px;
-}
-
-.section--more {
-  color: #FFF;
-  background: #0E0F34;
-  padding: 20px 0 40px 0;
-}
-
-.section-group {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 30px 0;
-}
-
-.section-group h3 {
-  margin: 0 0 20px 0;
-  text-transform: uppercase;
-}
-
-.section-group h4 {
-  font-weight: normal;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.section-group code {
-  padding: 20px;
-  font-size: 1.2em;
-}
-
-.section-group .btn {
-  margin-right: 20px;
-}
